@@ -1,7 +1,124 @@
 * {
   margin: 0;
 }
-.acceuil {
+.accueil {
   margin: 0;
-  font-family: roboto sans-serif;
+  font-family: roboto;
+}
+.entete {
+  display: grid;
+  grid-template-columns: 13% 74% 13%;
+  align-items: center;
+  justify-items: center;
+  height: 3.93rem;
+  h1 {
+    color: var(--black, #101010);
+    text-align: center;
+    font-family: Shrikhand;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0.88rem 0 0.81rem 0;
+    width: 100%;
+  }
+
+  .icone {
+    display: initial;
+    border: solid 1px;
+    margin-left: 1.065rem;
+  }
+}
+.localisation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 3.125rem;
+  align-items: center;
+  background: var(--grey-2, #eaeaea);
+  box-shadow: 0px 5px 3px -5px inset grey;
+  .localisation__btn {
+    color: var(--grey, #353535);
+
+    /* Button */
+    font-size: 1rem;
+    // font-family: Roboto;
+    // font-style: normal;
+    // font-weight: 500;
+    line-height: normal;
+    margin-left: 1.06rem;
+    border: none;
+    background: var(--grey-2, #eaeaea);
+    width: 109px;
+  }
+}
+.decouverte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 224px;
+  padding-bottom: 3.56rem;
+  background-color: #f6f6f6;
+  h1 {
+    text-align: center;
+    margin-top: 2.44rem;
+    height: 68px;
+  }
+
+  /* Paragraph */
+  p {
+    width: 84%;
+    text-align: center;
+    font-size: 1.125rem;
+    // font-style: normal;
+    // font-weight: 300;
+    // line-height: normal;
+  }
+  .decouverte__bouton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13.6rem;
+    height: 3.13rem;
+    border-radius: 1.5625rem;
+    background: var(
+      --button-gradient,
+      linear-gradient(175deg, #9356dc 0%, #ff79da 100%)
+    );
+    margin-top: 1.7rem;
+    /* Shadow/Button */
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    color: var(--white, #fff);
+    text-align: center;
+    text-decoration: none;
+    /* Button */
+    // font-size: 1rem;
+    // font-style: normal;
+    // font-weight: 500;
+    line-height: normal;
+  }
+}
+// NAVIGATION
+.navigation {
+  display: flex;
+  flex-direction: column;
+  .navigation__page {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navigation__rep {
+    display: flex;
+    flex-direction: row;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #9356dc;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+  }
 }
