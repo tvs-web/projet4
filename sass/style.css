@@ -88,16 +88,24 @@
   /* Button */
   line-height: normal;
 }
+.decouverte .decouverte__bouton:hover {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(182deg, #9356dc 0%, #ff79da 100%);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
+}
 
 .navigation {
   display: flex;
   flex-direction: column;
+  gap: 1.6rem;
+  margin-top: 3rem;
+  margin-bottom: 4.25rem;
 }
 .navigation .navigation__page {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
-.navigation .navigation__rep {
+.navigation .navigation__page .navigation__rep {
   display: flex;
   flex-direction: row;
   width: 24px;
@@ -109,8 +117,11 @@
   font-weight: 500;
   justify-content: center;
   align-items: center;
+  margin-left: 12px;
+  margin-right: -12px;
+  position: relative;
 }
-.navigation .navigation__bouton {
+.navigation .navigation__page .navigation__bouton {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,6 +130,12 @@
   flex-shrink: 0;
   border-radius: 1.25rem;
   background: var(--background, #f6f6f6);
+  gap: 1.67rem;
+  text-decoration: none;
   /* Shadow/Instructions */
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+}
+.navigation .navigation__page .navigation__bouton .navigation__bouton__txt {
+  text-decoration: none;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
