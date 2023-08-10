@@ -24,7 +24,7 @@
   }
 
   .icone {
-    display: initial;
+    display: none;
     border: solid 1px;
     margin-left: 1.065rem;
   }
@@ -61,58 +61,60 @@
   padding-bottom: 3.56rem;
   background-color: #f6f6f6;
   h1 {
-    text-align: center;
-    margin-top: 2.44rem;
-    height: 68px;
-  }
-
-  /* Paragraph */
-  p {
-    width: 84%;
-    text-align: center;
-    font-size: 1.125rem;
-    // font-style: normal;
-    // font-weight: 300;
-    // line-height: normal;
-  }
-  .decouverte__bouton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 13.6rem;
-    height: 3.13rem;
-    border-radius: 1.5625rem;
-    background: var(
-      --button-gradient,
-      linear-gradient(175deg, #9356dc 0%, #ff79da 100%)
-    );
-    margin-top: 1.7rem;
-    /* Shadow/Button */
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-    color: var(--white, #fff);
-    text-align: center;
-    text-decoration: none;
-    /* Button */
-    line-height: normal;
-  }
-
-  .decouverte__bouton:hover {
-    background: linear-gradient(
-        0deg,
-        rgba(255, 255, 255, 0.15) 0%,
-        rgba(255, 255, 255, 0.15) 100%
-      ),
-      linear-gradient(182deg, #9356dc 0%, #ff79da 100%);
-    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
+    height: 4.25rem;
+    padding-top: 2.44rem;
   }
 }
+
+/* Paragraph */
+p {
+  width: 84%;
+  text-align: center;
+  font-size: 1.125rem;
+}
+.decouverte__bouton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13.6rem;
+  height: 3.13rem;
+  border-radius: 1.5625rem;
+  background: var(
+    --button-gradient,
+    linear-gradient(175deg, #9356dc 0%, #ff79da 100%)
+  );
+  margin-top: 1.7rem;
+  /* Shadow/Button */
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  color: var(--white, #fff);
+  text-align: center;
+  text-decoration: none;
+  /* Button */
+  line-height: normal;
+}
+
+.decouverte__bouton:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 255, 255, 0.15) 100%
+    ),
+    linear-gradient(182deg, #9356dc 0%, #ff79da 100%);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
 // NAVIGATION
+.navigation h1 {
+  margin-left: 1.25rem;
+}
+
 .navigation {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
   margin-top: 3rem;
   margin-bottom: 4.25rem;
+
   .navigation__page {
     display: flex;
     flex-direction: row;
