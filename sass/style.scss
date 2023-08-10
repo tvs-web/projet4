@@ -1,6 +1,10 @@
 * {
   margin: 0;
 }
+body {
+  margin: auto;
+  width: 100%;
+}
 .accueil {
   margin: 0;
   font-family: roboto;
@@ -119,6 +123,7 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 
     .navigation__rep {
       display: flex;
@@ -154,5 +159,17 @@ p {
         color: black;
       }
     }
+  }
+}
+// RESTAURANTS
+.restaurants {
+  display: flex;
+  flex-direction: column;
+}
+.carte {
+  display: grid;
+  img {
+    height: 231px;
+    object-fit: cover;
   }
 }

@@ -2,6 +2,11 @@
   margin: 0;
 }
 
+body {
+  margin: auto;
+  width: 100%;
+}
+
 .accueil {
   margin: 0;
   font-family: roboto;
@@ -110,6 +115,7 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 .navigation .navigation__page .navigation__rep {
   display: flex;
@@ -144,4 +150,18 @@ p {
 .navigation .navigation__page .navigation__bouton .navigation__bouton__txt {
   text-decoration: none;
   color: black;
+}
+
+.restaurants {
+  display: flex;
+  flex-direction: column;
+}
+
+.carte {
+  display: grid;
+}
+.carte img {
+  height: 231px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
