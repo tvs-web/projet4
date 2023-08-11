@@ -4,6 +4,18 @@
 body {
   margin: auto;
   width: 100%;
+  h1 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  h2 {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
 }
 .accueil {
   margin: 0;
@@ -15,7 +27,7 @@ body {
   align-items: center;
   justify-items: center;
   height: 3.93rem;
-  h1 {
+  i {
     color: var(--black, #101010);
     text-align: center;
     font-family: Shrikhand;
@@ -73,7 +85,6 @@ body {
 /* Paragraph */
 p {
   width: 84%;
-  text-align: center;
   font-size: 1.125rem;
 }
 .decouverte__bouton {
@@ -124,7 +135,7 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
+    margin-right: 1.25rem;
     .navigation__rep {
       display: flex;
       flex-direction: row;

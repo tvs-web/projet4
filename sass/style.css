@@ -6,6 +6,18 @@ body {
   margin: auto;
   width: 100%;
 }
+body h1 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body h2 {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 
 .accueil {
   margin: 0;
@@ -19,7 +31,7 @@ body {
   justify-items: center;
   height: 3.93rem;
 }
-.entete h1 {
+.entete i {
   color: var(--black, #101010);
   text-align: center;
   font-family: Shrikhand;
@@ -73,7 +85,6 @@ body {
 /* Paragraph */
 p {
   width: 84%;
-  text-align: center;
   font-size: 1.125rem;
 }
 
@@ -116,6 +127,7 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-right: 1.25rem;
 }
 .navigation .navigation__page .navigation__rep {
   display: flex;
